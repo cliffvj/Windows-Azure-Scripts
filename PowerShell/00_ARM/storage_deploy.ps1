@@ -1,0 +1,1 @@
+New-AzResourceGroupDeployment -Name LocalDeployment -ResourceGroupName NewRG -TemplateFile .\local_template.json

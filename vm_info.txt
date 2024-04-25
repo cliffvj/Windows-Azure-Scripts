@@ -1,0 +1,5 @@
+
+SubscriptionName     VMName ResourceGroupName Location VMSize       OSType OSVersion IPAddresses
+----------------     ------ ----------------- -------- ------       ------ --------- -----------
+Azure subscription 1 vm     RG_NEW            eastus   Standard_B1s  Linux           192.168.1.4
+

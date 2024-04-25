@@ -1,0 +1,1 @@
+New-AzResourceGroupDeployment -Name VMDeployment -ResourceGroupName rg_virtualmac -TemplateFile .\template.json -TemplateParameterFile .\parameters.json
