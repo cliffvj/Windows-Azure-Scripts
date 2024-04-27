@@ -1,1 +1,1 @@
-# Windows-Azure_Scripts
+# Windows-Azure-Scripts
