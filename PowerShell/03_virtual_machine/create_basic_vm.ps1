@@ -4,4 +4,6 @@ New-AzVM `
 -ResourceGroupName "rg_centos85" `
 -Location "eastus" -Credential (Get-Credential) `
 -Image "CentOS85Gen2" `
--Size "Standard_B1s"
+-Size "Standard_B1s" `
+-OpenPorts 22 `
+-PublicIPAddressName "vm-centos85_pip"
