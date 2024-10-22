@@ -5,6 +5,6 @@ Import-Module ActiveDirectory
 $Users = Get-ADUser -Filter *
 
 # Update all of the users with the new UPN suffix
-for each ($User in $Users) {
+foreach ($User in $Users) {
   Set-ADUser -Identity $User -UserPrincipalName "$($User.SamAccountName)@cliffordjuan.com"
 }
